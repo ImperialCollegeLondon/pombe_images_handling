@@ -33,4 +33,5 @@ for aa=1:length(grVecNoD)
     if abs(tVar1)>1.1; grFlagNoD(aa) = true; end 
 end
 
+%grFlagNoD(:) = 0; grFlagNoD([3,12,16,17,18,21,24])=1;
 clear aa grMean grStd input1 inputPath list1 turbo tVar1
