@@ -118,13 +118,13 @@ grFlagDye16  = (grFlagDye16==0);
 
 %manual flagging (overrides automatic flagging)
 %all datasets: pheB,serA,serB;
-grFlag16(:) = 0;  grFlag16([8,11,12]) = 1;
-grFlagDye   = repelem(grFlag16,indSize);
-grFlagDye16 = grFlag16; wrongDye = grFlagDye;
+%%grFlag16(:) = 0;  grFlag16([8,11,12]) = 1;
+%%grFlagDye   = repelem(grFlag16,indSize);
+%%grFlagDye16 = grFlag16; wrongDye = grFlagDye;
 %tp specifici:	gly_A_t2, gly_B_t2, leu_B_t2, phe_A_t2, pro_A_t1, pro_A_t8, trp_A_t5
-wrongDye([2,15,38,71,94,101,168]) = 1;
+%%wrongDye([2,15,38,71,94,101,168]) = 1;
 %con altri tp trovati analizzando gli outliers (funzione isoutlier, niente di campato in aria!
-wrongDye([2,11,15,36,38,49,60,71,75,94,101,141,150,151,168]) = 1;
+%%wrongDye([2,11,15,36,38,49,60,71,75,94,101,141,150,151,168]) = 1;
 
 
 
