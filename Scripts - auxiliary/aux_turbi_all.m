@@ -114,12 +114,12 @@ qFlagTur = zeros(1,length(featTur));
 for aa=1:length(featTur)
     qFlagTur(aa) = size(cell2mat(featTur(1,1,aa)),1);
 end
-qFlagTur = (qFlagTur<10000)';
+qFlagTur = (qFlagTur<5000)';
 wrongTur = or(grFlagTur,qFlagTur);
 
 %manual flagging (overrides automatic flagging)
 %glyC, pheC, serA,serB,(serC), thrC, trpC
-grFlagTur(:) = 0; grFlagTur([3,12,16,17,20,23])=1;
+%grFlagTur(:) = 0; grFlagTur([3,12,16,17,20,23])=1;
 wrongTur = grFlagTur;
 
 
