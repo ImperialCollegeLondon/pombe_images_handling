@@ -42,7 +42,7 @@ for aOUT=1:length(list0)
         check1  = not(grFlag16);
         check2  = cell2mat(tImNr)>=10000;
     else
-        run('..\Scripts - auxiliary\aux_noD_rateCalc.m'); clearVars grFlagNoD grVecNoD
+        run('..\Scripts - auxiliary\aux_noD_rateCalc.m'); clearVars grVecNoD %grFlagNoD
         if aOUT==2
             grFlagNoD(17)   = [];   grFlagNoD(11) = [];
             check1      = not(grFlagNoD);
