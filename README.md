@@ -13,4 +13,4 @@ The functioning of the scripts is described in the aforementioned thesis. A link
 The code has been tested in MATLAB R2014b and MATLAB R2017b.
 
 ## notes
-License files do not apply to the distributionPlots folder, which contains third-party scripts I adapted. The original license is contained within the folder.
+License files do not apply to the **distributionPlot** folder, which contains third-party scripts I adapted. The original license is contained within the folder.
