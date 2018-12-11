@@ -14,4 +14,4 @@ The code has been tested in MATLAB R2014b and MATLAB R2017b.
 
 ## notes
 License files do not apply to the **distributionPlot** folder, which contains third-party scripts I adapted. The original license is contained within the folder.\
-License files also do not apply to the **pombe-scope-tools** folder. It contains third-part scripts I was verbally granted permission of adapting and redistributing. The owner of the original scripts is Dr Francois Bertaux (http://www.f-bertaux.me); if you intend to use those scripts, please ask him about proper licensing specifications.
+License files also do not apply to the **pombe-scope-tools** folder,which contains third-party scripts I adapted. The owner of the original scripts is Dr Francois Bertaux (http://www.f-bertaux.me); if you intend to use/adapt/redistribute those scripts, please ask him about proper licensing specifications.
